@@ -1,0 +1,12 @@
+clc;
+b=[1 -10 -4 4];
+a=[2 -2 -4];
+[r,p,k]=residuez(b,a);
+display(a);
+display(b);
+display('resdue=');
+display(r);
+display('pole location=');
+display(p);
+display('direct terms=');
+display(k);
